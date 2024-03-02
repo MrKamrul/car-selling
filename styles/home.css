@@ -113,3 +113,17 @@ body{
     justify-content: space-between;
     color: gray;
 }
+/* MEDIA QUERY */
+@media only screen and (min-width: 512px) {
+    .car-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        padding: 20px;
+    }
+    body{
+        padding: 30px;
+        background-color: beige;
+        padding-top: 0;
+    }
+  }
