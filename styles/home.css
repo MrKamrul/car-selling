@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.search-bar{
+    width: 80%;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.search input{
+    background-color: ghostwhite;
+    border: none;
+}
+.search a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.menu a{
+    background-color: ghostwhite;
+}
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.fact{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.card-icon i{
+    font-size: 40px;
+    color: gray;
+    margin-left: 5px;
+    padding: 10px;
+}
+.card-det{
+    margin-top: 20px;
+    opacity: 5;
+    margin-left: 10px;
+}
+.card-det h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.30em;
+}
+.card-det p{
+    color: gray;
+}
+/* navigation style  */
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+.nav-item a{
+    color: gray;
+}
