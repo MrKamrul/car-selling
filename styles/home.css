@@ -15,6 +15,9 @@ body{
     background-color: ghostwhite;
     border: none;
 }
+.search-bar a{
+    margin-right: 10px;
+}
 .search a{
     display: flex;
     font-size: 20px;
@@ -81,7 +84,7 @@ body{
     justify-content: space-between;
 }
 .car-list{
-    background-color: beige;
+    background-color: rgb(224, 224, 221);
     margin-bottom: 100px;
     padding: 15px;
 }
@@ -120,12 +123,10 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         padding: 20px;
+        background-color: beige;
     }
     body{
         padding: 30px;
         background-color: beige;
-    }
-    .slider{
-        margin-top: 20px ;
     }
   }
