@@ -1,7 +1,7 @@
 body{
     background-color: white;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 .search-bar{
@@ -41,7 +41,7 @@ body{
     font-size: 40px;
     color: gray;
     margin-left: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 .card-det{
     margin-top: 20px;
@@ -65,5 +65,51 @@ body{
     color: gray;
 }
 .nav-item a{
+    color: gray;
+}
+.nav-item h5{
+    font-weight: 100;
+
+}
+/* selling styles */
+.sell-img img{
+    height: 200px;
+    width: 100%;
+}
+.car-name{
+    display: flex;
+    justify-content: space-between;
+}
+.car-list{
+    background-color: beige;
+    margin-bottom: 100px;
+    padding: 15px;
+}
+.car-item{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+.car-name{
+    margin: 10px;
+}
+.car-det{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.car-det p{
+    margin-right: 20px;
+}
+.hrt{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.car-loc{
+    margin:5px 10px;
+    display: flex;
+    justify-content: space-between;
     color: gray;
 }
